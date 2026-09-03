@@ -7,6 +7,7 @@ Written up, one lineage at a time, on [shashrvacai.com/blog](https://www.shashrv
 | Lineage | Span | Post | Live p5 port |
 |---|---|---|---|
 | [agents](agents/) | Oct 2017 to 2019, and still running | [Code 30: The vehicle that never stopped](https://www.shashrvacai.com/blog/code-30-the-vehicle-that-never-stopped) | in the post |
+| [flow-field](flow-field/) | Nov 2017 to 2019 | [Code 31: Weather for particles](https://www.shashrvacai.com/blog/code-31-weather-for-particles) | in the post |
 
 More lineages land as the posts do: flow fields, the noise kit, circles and ripples, audio reactive, Kinect and webcam, physics, type, and the show rigs.
 

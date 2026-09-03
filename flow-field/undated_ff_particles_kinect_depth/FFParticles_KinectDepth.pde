@@ -1,0 +1,158 @@
+import org.openkinect.processing.*;
+import java.util.Locale;
+import com.thomasdiewald.pixelflow.java.DwPixelFlow;
+import com.thomasdiewald.pixelflow.java.flowfieldparticles.DwFlowFieldParticles;
+import com.thomasdiewald.pixelflow.java.imageprocessing.DwOpticalFlow;
+import com.thomasdiewald.pixelflow.java.imageprocessing.filter.DwFilter;
+import processing.core.*;
+import processing.opengl.PGraphics2D;
+
+Kinect2 K;
+  int dMax=  650, dMin = 280 ;    // depth of the kinect
+int w, h ;    
+PImage g ;
+  
+  int cam_w = 640;
+  int cam_h = 480;
+  
+  int viewp_w = 1280;
+  int viewp_h = (int) (viewp_w * cam_h/(float)cam_w);
+
+
+  PGraphics2D pg_canvas;
+  PGraphics2D pg_obstacles;
+  PGraphics2D pg_kam ,Kanvas; 
+  
+  DwPixelFlow context;
+  DwOpticalFlow opticalflow;
+  DwFlowFieldParticles particles;
+
+  DwFlowFieldParticles.SpawnRect spawn = new DwFlowFieldParticles.SpawnRect();
+
+  public void settings() {
+    size(viewp_w, viewp_h, P2D);
+    smooth(0);
+  }
+  
+  public void setup(){
+    surface.setLocation(230, 0);
+    
+    K = new Kinect2(this);
+    K.initRegistered();
+    K.initDevice();
+    
+     Kanvas = (PGraphics2D)createGraphics(width, height, P2D);
+    
+    pg_kam = (PGraphics2D) createGraphics(cam_w, cam_h, P2D);
+    pg_kam.smooth(0);
+    pg_kam.beginDraw();
+    pg_kam.background(0);
+    pg_kam.endDraw();
+    
+    pg_canvas = (PGraphics2D) createGraphics(width, height, P2D);
+    pg_canvas.smooth(0);
+    
+    int border = 20;
+    pg_obstacles = (PGraphics2D) createGraphics(width, height, P2D);
+    pg_obstacles.smooth(0);
+    pg_obstacles.beginDraw();
+    //pg_obstacles.clear();
+    pg_obstacles.noStroke();
+    pg_obstacles.blendMode(REPLACE);
+    pg_obstacles.rectMode(CORNER);
+    pg_obstacles.fill(0, 255);
+    pg_obstacles.rect(0, 0, width, height);
+    pg_obstacles.fill(0, 0);
+    pg_obstacles.rect(border/2, border/2, width-border, height-border);
+    pg_obstacles.endDraw();
+
+    // library context
+    context = new DwPixelFlow(this);
+
+    
+    // optical flow 
+    opticalflow = new DwOpticalFlow(context, cam_w, cam_h);
+    //opticalflow.param.grayscale = true;
+    
+//    border = 120;
+    float dimx = width  - border;
+    float dimy = height - border;
+    
+    int particle_size = 3;
+    int numx = (int) (dimx / (0.9f*particle_size));
+    int numy = (int) (dimy / (0.9f*particle_size));
+
+    // particle spawn-def, rectangular shape
+    spawn.num(numx, numy);
+    spawn.dim(dimx, dimy);
+    spawn.pos(width/2-dimx/2, height/2-dimy/2);
+    spawn.vel(0, 0);
+    
+    // partcle simulation
+    particles = new DwFlowFieldParticles(context, numx * numy);
+     particles.param.col_A = new float[]{0.40f, 0.80f, 0.10f, 3};
+    // particles.param.col_B = new float[]{0.20f, 0.40f, 0.05f, 0};
+    // particles.param.col_B = new float[]{0.80f, 0.40f, 0.80f, 0};
+    //particles.param.col_A = new float[]{1.05f, 1.00f, 1.00f, 3};
+    particles.param.col_B = new float[]{0.25f, 0.10f, 0.00f, 0};
+    particles.param.shader_type = 1;
+    particles.param.shader_collision_mult = 0.4f;
+    particles.param.steps = 1;
+    particles.param.velocity_damping  = 0.999f;
+    particles.param.size_display   = ceil(particle_size * 1.5f);
+    particles.param.size_collision = particle_size;
+    particles.param.size_cohesion  = particle_size;
+   
+    
+    // init stuff that doesn't change
+    particles.resizeWorld(width, height); 
+    particles.spawn(width, height, spawn);
+    particles.createObstacleFlowField(pg_obstacles, new int[]{0,0,0,255}, false);
+    
+    frameRate(500);
+  }
+
+  public void draw(){
+      Kanvas.beginDraw();
+      Dkinect();
+      Kanvas.endDraw();
+      
+      pg_kam.beginDraw();
+      pg_kam.image(Kanvas,0,0);;
+      pg_kam.endDraw();
+      
+      // apply any filters
+      DwFilter.get(context).luminance.apply(pg_kam, pg_kam);
+
+      // compute Optical Flow
+      opticalflow.update(pg_kam);
+      
+    particles.param.mul_coh = 0.6;
+    particles.param.mul_col = 1.00f;
+    particles.param.mul_obs = 2.00f;
+    particles.param.mul_acc = 0.10f; // optical flow multiplier
+    particles.param.wh_scale_obs = 0;
+    particles.param.wh_scale_coh = 5;
+    particles.param.wh_scale_col = 0;
+        
+    particles.param.timestep = 1f/frameRate;
+    
+    // update particles, using the opticalflow for acceleration
+    particles.update(opticalflow.frameCurr.velocity);
+    
+    // render obstacles + particles
+    pg_canvas.beginDraw(); 
+  //  pg_canvas.image(pg_kam, 0, 0, width, height);  // show the camera result 
+    pg_canvas.image(pg_obstacles, 0, 0);
+    pg_canvas.endDraw();
+    particles.displayParticles(pg_canvas);
+
+    // display result
+    image(pg_canvas, 0, 0);
+
+  }
+  
+  public void keyReleased(){
+    particles.spawn(width, height, spawn);
+  }
+  

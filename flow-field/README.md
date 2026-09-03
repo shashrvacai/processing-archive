@@ -16,7 +16,7 @@ Read the story: [Code 31: Weather for particles](https://www.shashrvacai.com/blo
 | 2019-06_cyberia_wall_ff_cohesion_* | Jun 2019 | Cyberia wall | PixelFlow cohesion particles, "with syphon to max .. added sliders .. with oscp5 connections" |
 | 2019-06-20_ff_cohesion_kinect | 20 Jun 2019 | practice | the same with a body as the field |
 | 2019_spilt_milk_ff_attractor_show_file | 2019 | Spilt Milk | eight tabs: Scene, INtros, Impulse, OSc_event. A show file |
-| 2019-06-15_type_flow_field, _variant | 15 Jun 2019 | practice | letters as the only place the arrows may go |
+| 2019-06-15_type_flow_field, _variant | 15 Jun 2019 | practice | letters as the only place the arrows may go. After Amnon Owed's Generative Typography examples (CAN, 2014) |
 | undated_p5_flow_field_js | 2019 | practice | first p5.js port |
 
 Data folders (Kinect depth frames, video) are not included. Libraries: processing.sound, toxiclibs, PixelFlow, SimpleOpenNI, ControlP5, oscP5, Syphon.

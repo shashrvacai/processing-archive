@@ -2,7 +2,7 @@
 
 One 2,000-line file, `Osn.pde`, copied into seventeen sketches between 2018 and 2019. It is Kurt Spencer's OpenSimplexNoise, public domain, which I pasted in whenever `noise()` looked too Processing. I never understood it well enough to rewrite it, so it travelled whole.
 
-Read the story: [Code 32: The file I never read](https://www.shashrvacai.com/blog/code-32-the-file-i-never-read).
+Read the story: [Code 32: The spare tyre](https://www.shashrvacai.com/blog/code-32-the-file-i-never-read).
 
 | Folder | Date | Where | What it is |
 |---|---|---|---|

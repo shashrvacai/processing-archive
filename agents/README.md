@@ -25,3 +25,35 @@ Read the story: [Code 30: The flock that followed me home](https://www.shashrvac
 Where it went next: the homepage boids at [shashrvacai.com](https://www.shashrvacai.com), the BC + AI pitch ([Code 28](https://www.shashrvacai.com/blog/code-28-things-i-built-this-month)), and the animal flock in [Code 29](https://www.shashrvacai.com/blog/code-29-for-love-of-animals).
 
 Screenshots in the folders are from the folders. Most were taken on 17 and 18 June 2019, the two evenings before Cyberia.
+
+## Gallery
+
+One picture per folder, click through to the code.
+
+<p>
+<a href="2017-10-23_single_particle"><code>2017-10-23_single_particle</code> (no picture)</a>
+<a href="2017-11-01_arrive"><img src="2017-11-01_arrive/Screen%20Shot%202019-06-18%20at%2012.54.00%20AM.png" width="150" alt="2017-11-01_arrive" title="2017-11-01_arrive"></a>
+<a href="2017-11-01_seek"><img src="2017-11-01_seek/Screen%20Shot%202019-06-18%20at%2012.53.34%20AM.png" width="150" alt="2017-11-01_seek" title="2017-11-01_seek"></a>
+<a href="2017-11-01_seek_random_walker"><img src="2017-11-01_seek_random_walker/Screen%20Shot%202019-06-18%20at%2012.52.49%20AM.png" width="150" alt="2017-11-01_seek_random_walker" title="2017-11-01_seek_random_walker"></a>
+<a href="2017-11-12_arrive_c"><code>2017-11-12_arrive_c</code> (no picture)</a>
+<a href="2017-11-12_seek_b"><code>2017-11-12_seek_b</code> (no picture)</a>
+<a href="2017-11-20_obey_separate"><img src="2017-11-20_obey_separate/Screen%20Shot%202019-06-18%20at%2012.50.53%20AM.png" width="150" alt="2017-11-20_obey_separate" title="2017-11-20_obey_separate"></a>
+<a href="2018-03_fhse_bubble"><img src="2018-03_fhse_bubble/Screen%20Shot%202018-11-19%20at%207.35.53%20AM.png" width="150" alt="2018-03_fhse_bubble" title="2018-03_fhse_bubble"></a>
+<a href="2018-03_fhse_bubble_3dtest"><code>2018-03_fhse_bubble_3dtest</code> (no picture)</a>
+<a href="2018-03_fhse_flocks"><code>2018-03_fhse_flocks</code> (no picture)</a>
+<a href="2018-06_jazzfest_obey"><code>2018-06_jazzfest_obey</code> (no picture)</a>
+<a href="2018-08-30_supertext"><img src="2018-08-30_supertext/Screen%20Shot%202018-08-30%20at%201.37.46%20AM.png" width="150" alt="2018-08-30_supertext" title="2018-08-30_supertext"></a>
+<a href="2018-09_agents67"><img src="2018-09_agents67/Screen%20Shot%202018-09-30%20at%207.08.44%20PM.png" width="150" alt="2018-09_agents67" title="2018-09_agents67"></a>
+<a href="2018-09_agents68_separate_seek"><img src="2018-09_agents68_separate_seek/Screen%20Shot%202018-09-30%20at%207.08.06%20PM.png" width="150" alt="2018-09_agents68_separate_seek" title="2018-09_agents68_separate_seek"></a>
+<a href="2018-09_agents69_flocks"><img src="2018-09_agents69_flocks/Screen%20Shot%202018-09-30%20at%207.09.30%20PM.png" width="150" alt="2018-09_agents69_flocks" title="2018-09_agents69_flocks"></a>
+<a href="2018-11_fhse_obey_osc_syphon"><img src="2018-11_fhse_obey_osc_syphon/Screen%20Shot%202018-11-19%20at%207.37.10%20AM.png" width="150" alt="2018-11_fhse_obey_osc_syphon" title="2018-11_fhse_obey_osc_syphon"></a>
+<a href="2019-06_cyberia_agents64_flowfield"><img src="2019-06_cyberia_agents64_flowfield/Screen%20Shot%202019-06-18%20at%2012.38.58%20AM.png" width="150" alt="2019-06_cyberia_agents64_flowfield" title="2019-06_cyberia_agents64_flowfield"></a>
+<a href="2019-06_cyberia_agents64_scalar_projection"><code>2019-06_cyberia_agents64_scalar_projection</code> (no picture)</a>
+<a href="2019-06_cyberia_basic_obey"><img src="2019-06_cyberia_basic_obey/Screen%20Shot%202019-06-18%20at%2012.40.29%20AM.png" width="150" alt="2019-06_cyberia_basic_obey" title="2019-06_cyberia_basic_obey"></a>
+<a href="2019-06_cyberia_basic_obey_syphon"><code>2019-06_cyberia_basic_obey_syphon</code> (no picture)</a>
+<a href="2019_caiff_type_v1"><code>2019_caiff_type_v1</code> (no picture)</a>
+<a href="2019_caiff_type_v2"><code>2019_caiff_type_v2</code> (no picture)</a>
+<a href="2019_kinect_flow_field"><code>2019_kinect_flow_field</code> (no picture)</a>
+<a href="2019_kinect_flow_field_invert"><code>2019_kinect_flow_field_invert</code> (no picture)</a>
+<a href="undated_artbridges_flocks_seek_separate_follow"><code>undated_artbridges_flocks_seek_separate_follow</code> (no picture)</a>
+</p>

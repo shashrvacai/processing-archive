@@ -20,3 +20,36 @@ Read the story: [Code 31: Weather for particles](https://www.shashrvacai.com/blo
 | undated_p5_flow_field_js | 2019 | practice | first p5.js port |
 
 Data folders (Kinect depth frames, video) are not included. Libraries: processing.sound, toxiclibs, PixelFlow, SimpleOpenNI, ControlP5, oscP5, Syphon.
+
+## Gallery
+
+One picture per folder, click through to the code.
+
+<p>
+<a href="2017-11-14_flow_field_with_mic"><img src="2017-11-14_flow_field_with_mic/Screen%20Shot%202019-06-18%20at%2012.49.51%20AM.png" width="150" alt="2017-11-14_flow_field_with_mic" title="2017-11-14_flow_field_with_mic"></a>
+<a href="2018-04-23_flowers"><img src="2018-04-23_flowers/Screen%20Shot%202018-04-23%20at%209.24.42%20PM.png" width="150" alt="2018-04-23_flowers" title="2018-04-23_flowers"></a>
+<a href="2018-09-30_toxiclibs_attractor_kinect"><img src="2018-09-30_toxiclibs_attractor_kinect/Screen%20Shot%202018-09-30%20at%207.20.09%20PM.png" width="150" alt="2018-09-30_toxiclibs_attractor_kinect" title="2018-09-30_toxiclibs_attractor_kinect"></a>
+<a href="2018-09-30_toxiclibs_noise_attractor"><img src="2018-09-30_toxiclibs_noise_attractor/Screen%20Shot%202018-09-30%20at%207.20.09%20PM.png" width="150" alt="2018-09-30_toxiclibs_noise_attractor" title="2018-09-30_toxiclibs_noise_attractor"></a>
+<a href="2018-11-16_pixelflow_liquid"><img src="2018-11-16_pixelflow_liquid/Screen%20Shot%202018-11-16%20at%2012.04.00%20AM.png" width="150" alt="2018-11-16_pixelflow_liquid" title="2018-11-16_pixelflow_liquid"></a>
+<a href="2019-06-15_type_flow_field"><img src="2019-06-15_type_flow_field/Screen%20Shot%202019-06-15%20at%204.13.37%20PM.png" width="150" alt="2019-06-15_type_flow_field" title="2019-06-15_type_flow_field"></a>
+<a href="2019-06-15_type_flow_field_variant"><img src="2019-06-15_type_flow_field_variant/Screen%20Shot%202019-06-15%20at%204.12.11%20PM.png" width="150" alt="2019-06-15_type_flow_field_variant" title="2019-06-15_type_flow_field_variant"></a>
+<a href="2019-06-18_cyberia_ff_cohesion"><img src="2019-06-18_cyberia_ff_cohesion/Screen%20Shot%202019-06-18%20at%2012.44.16%20AM.png" width="150" alt="2019-06-18_cyberia_ff_cohesion" title="2019-06-18_cyberia_ff_cohesion"></a>
+<a href="2019-06-20_ff_cohesion_kinect"><img src="2019-06-20_ff_cohesion_kinect/Screen%20Shot%202019-06-20%20at%209.16.24%20PM.png" width="150" alt="2019-06-20_ff_cohesion_kinect" title="2019-06-20_ff_cohesion_kinect"></a>
+<a href="2019-06_cyberia_ff_attractors_test"><code>2019-06_cyberia_ff_attractors_test</code> (no picture)</a>
+<a href="2019-06_cyberia_ff_attractors_test_2_gui_sound"><code>2019-06_cyberia_ff_attractors_test_2_gui_sound</code> (no picture)</a>
+<a href="2019-06_cyberia_ff_particles_basic_test"><code>2019-06_cyberia_ff_particles_basic_test</code> (no picture)</a>
+<a href="2019-06_cyberia_ref_ff_attractors_test"><code>2019-06_cyberia_ref_ff_attractors_test</code> (no picture)</a>
+<a href="2019-06_cyberia_ref_flow_field_2017"><img src="2019-06_cyberia_ref_flow_field_2017/Screen%20Shot%202019-06-18%20at%2012.49.51%20AM.png" width="150" alt="2019-06_cyberia_ref_flow_field_2017" title="2019-06_cyberia_ref_flow_field_2017"></a>
+<a href="2019-06_cyberia_wall_ff_cohesion_osc_syphon_sliders"><code>2019-06_cyberia_wall_ff_cohesion_osc_syphon_sliders</code> (no picture)</a>
+<a href="2019-06_cyberia_wall_ff_cohesion_show_copy"><code>2019-06_cyberia_wall_ff_cohesion_show_copy</code> (no picture)</a>
+<a href="2019_kinect_flow_field_sketch"><code>2019_kinect_flow_field_sketch</code> (no picture)</a>
+<a href="2019_spilt_milk_ff_attractor_show_file"><code>2019_spilt_milk_ff_attractor_show_file</code> (no picture)</a>
+<a href="undated_ff_particles_basic"><code>undated_ff_particles_basic</code> (no picture)</a>
+<a href="undated_ff_particles_kinect"><code>undated_ff_particles_kinect</code> (no picture)</a>
+<a href="undated_ff_particles_kinect_depth"><code>undated_ff_particles_kinect_depth</code> (no picture)</a>
+<a href="undated_genetic_algorithm_evolve_field"><code>undated_genetic_algorithm_evolve_field</code> (no picture)</a>
+<a href="undated_magnetic_flow_field"><code>undated_magnetic_flow_field</code> (no picture)</a>
+<a href="undated_p5_flow_field_js"><code>undated_p5_flow_field_js</code> (no picture)</a>
+<a href="undated_pixelflow_attractor"><code>undated_pixelflow_attractor</code> (no picture)</a>
+<a href="undated_pixelflow_attractor_kinect"><code>undated_pixelflow_attractor_kinect</code> (no picture)</a>
+</p>

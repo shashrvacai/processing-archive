@@ -10,6 +10,7 @@ Written up, one lineage at a time, on [shashrvacai.com/blog](https://www.shashrv
 | [flow-field](flow-field/) | Nov 2017 to 2019 | [Code 31: Weather for particles](https://www.shashrvacai.com/blog/code-31-weather-for-particles) | in the post |
 | [noise-kit](noise-kit/) | Apr 2018 to Jun 2020 | [Code 32: The spare tyre](https://www.shashrvacai.com/blog/code-32-the-file-i-never-read) | in the post |
 | [circles](circles/) | 2017 to Feb 2020 | [Code 33: Going in circles](https://www.shashrvacai.com/blog/code-33-going-in-circles) | in the post |
+| [audio](audio/) | Sep 2017 to Oct 2019 | [Code 34: The sketches that listened](https://www.shashrvacai.com/blog/code-34-the-sketches-that-listened) | in the post |
 
 More lineages land as the posts do: flow fields, the noise kit, circles and ripples, audio reactive, Kinect and webcam, physics, type, and the show rigs.
 

@@ -2,7 +2,7 @@
 
 Springs, pendulums, chains, cloth, bricks, dam breaks. The thread that never found a show of its own but sneaked into all of them. Two springs from The Nature of Code in autumn 2017, then a June 2018 week of Box2D and PixelFlow soft bodies for the Squish show (where three of my drawings were the colour maps the particles wore), a liquid wave machine and toxiclibs chains that autumn, and LiquidFun for Cyberia the next summer.
 
-Read the story: [Code 36: Things that fall](https://www.shashrvacai.com/blog/code-36-things-that-fall).
+Read the story: [Code 10: Things that fall](https://www.shashrvacai.com/blog/code-36-things-that-fall).
 
 | Folder | Date | Where | What it is |
 |---|---|---|---|

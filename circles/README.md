@@ -2,7 +2,7 @@
 
 Rings, ripples, dots in grids, things that spin. The sketches made when there was nothing to make, which turned out to be most evenings from early 2018 to the last week before the folder went quiet in February 2020.
 
-Read the story: [Code 33: Going in circles](https://www.shashrvacai.com/blog/code-33-going-in-circles).
+Read the story: [Code 15: Going in circles](https://www.shashrvacai.com/blog/code-33-going-in-circles).
 
 | Folder | Date | Where | What it is |
 |---|---|---|---|

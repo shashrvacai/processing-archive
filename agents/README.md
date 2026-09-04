@@ -2,7 +2,7 @@
 
 Seek, arrive, separate, obey. Daniel Shiffman's steering vehicles from The Nature of Code, chapter 6, as I learned them in autumn 2017, and every show copy since.
 
-Read the story: [Code 30: The flock that followed me home](https://www.shashrvacai.com/blog/code-30-the-vehicle-that-never-stopped).
+Read the story: [Code 09: The flock that followed me home](https://www.shashrvacai.com/blog/code-30-the-vehicle-that-never-stopped).
 
 | Folder | Date | Where | What changed |
 |---|---|---|---|

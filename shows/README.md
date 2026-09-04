@@ -2,7 +2,7 @@
 
 The rigs. Not sketches, show files: one file per gig with a state machine, section comments, a microphone, and whatever the room needed bolted on (OSC in from Max, Syphon or Spout out to the projector). `17` is the December 2017 evenings (Obsidian Tapes, Sonic Psych, TIXER), `jazz_fest_*` is the 2018 cue file and its test folder, `CyberiaClosing_*` the 2019 festival closing patch, `Monsoon_*` and `TifaWall` the TIFA pieces, `Mark_Simple` the sketch set up on a friend's laptop for Group Electronics, `wall_Algorave_*` the 2020 remote algorave, `marismo` and `test2` two small p5 loops. `max_*` holds the Max patches that drove the Processing sketches over OSC, and the copies of sketches that lived next to them.
 
-Read the story: [Code 38: The show file](https://www.shashrvacai.com/blog/code-38-the-show-file).
+Read the story: [Code 16: The show file](https://www.shashrvacai.com/blog/code-38-the-show-file).
 
 Libraries: processing.sound, oscP5, Syphon, Spout, Open Kinect, PixelFlow, LiquidFun. Max 7/8 patches (`.maxpat`). Footage and audio not included.
 

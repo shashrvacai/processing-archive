@@ -2,7 +2,7 @@
 
 Letters that misbehave. Most of this folder is me working through Amnon Owed's Generative Typography examples with Geomerative, then bending them: a word scanned line by line, points connected inside a word, a "designer" grid, "Filament" as a plexus for the concert of the same name, text rain after Camille Utterback, and a genetic algorithm spelling its way to Shakespeare. The flow-field and aggregate-particle type pieces are here too (they also appear in flow-field and agents).
 
-Read the story: [Code 37: Letters that misbehave](https://www.shashrvacai.com/blog/code-37-letters-that-misbehave).
+Read the story: [Code 14: Letters that misbehave](https://www.shashrvacai.com/blog/code-37-letters-that-misbehave).
 
 | Folder | Date | What it is |
 |---|---|---|

@@ -2,7 +2,7 @@
 
 Weather for particles. A grid of arrows pointed by noise, and things dropped into it that go where the arrows say. First one November 2017 with a microphone shaking the whole field; two years of teaching it to listen after that.
 
-Read the story: [Code 31: Weather for particles](https://www.shashrvacai.com/blog/code-31-weather-for-particles).
+Read the story: [Code 11: Weather for particles](https://www.shashrvacai.com/blog/code-31-weather-for-particles).
 
 | Folder | Date | Where | What it is |
 |---|---|---|---|

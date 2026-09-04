@@ -14,6 +14,7 @@ Written up, one lineage at a time, on [shashrvacai.com/blog](https://www.shashrv
 | [camera](camera/) | Aug 2017 to Nov 2019 | [Code 35: The sketches that looked back](https://www.shashrvacai.com/blog/code-35-the-sketches-that-looked-back) | in the post |
 | [physics](physics/) | Oct 2017 to Jun 2019 | [Code 36: Things that fall](https://www.shashrvacai.com/blog/code-36-things-that-fall) | in the post |
 | [type](type/) | May 2018 to Jun 2019 | [Code 37: Letters that misbehave](https://www.shashrvacai.com/blog/code-37-letters-that-misbehave) | in the post |
+| [shows](shows/) | Dec 2017 to Jun 2020 | [Code 38: The show file](https://www.shashrvacai.com/blog/code-38-the-show-file) | in the post |
 
 More lineages land as the posts do: flow fields, the noise kit, circles and ripples, audio reactive, Kinect and webcam, physics, type, and the show rigs.
 

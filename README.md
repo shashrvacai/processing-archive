@@ -15,8 +15,9 @@ Written up, one lineage at a time, on [shashrvacai.com/blog](https://www.shashrv
 | [physics](physics/) | Oct 2017 to Jun 2019 | [Code 36: Things that fall](https://www.shashrvacai.com/blog/code-36-things-that-fall) | in the post |
 | [type](type/) | May 2018 to Jun 2019 | [Code 37: Letters that misbehave](https://www.shashrvacai.com/blog/code-37-letters-that-misbehave) | in the post |
 | [shows](shows/) | Dec 2017 to Jun 2020 | [Code 38: The show file](https://www.shashrvacai.com/blog/code-38-the-show-file) | in the post |
+| [exports](exports/) | Dec 2016 to Jun 2019 | [Code 39: Nine years of Processing](https://www.shashrvacai.com/blog/code-39-nine-years-of-processing) | the timeline |
 
-More lineages land as the posts do: flow fields, the noise kit, circles and ripples, audio reactive, Kinect and webcam, physics, type, and the show rigs.
+All ten lineages are up. The anchor post, with the timeline of everything, is [Code 39](https://www.shashrvacai.com/blog/code-39-nine-years-of-processing).
 
 Everything here is Processing 3 (Java mode). Libraries used across the folder: processing.sound, oscP5, Syphon, Spout, SimpleOpenNI, PixelFlow, Box2D, toxiclibs, ControlP5, Geomerative. Not included in this repo.
 

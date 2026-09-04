@@ -12,6 +12,7 @@ Written up, one lineage at a time, on [shashrvacai.com/blog](https://www.shashrv
 | [circles](circles/) | 2017 to Feb 2020 | [Code 33: Going in circles](https://www.shashrvacai.com/blog/code-33-going-in-circles) | in the post |
 | [audio](audio/) | Sep 2017 to Oct 2019 | [Code 34: The sketches that listened](https://www.shashrvacai.com/blog/code-34-the-sketches-that-listened) | in the post |
 | [camera](camera/) | Aug 2017 to Nov 2019 | [Code 35: The sketches that looked back](https://www.shashrvacai.com/blog/code-35-the-sketches-that-looked-back) | in the post |
+| [physics](physics/) | Oct 2017 to Jun 2019 | [Code 36: Things that fall](https://www.shashrvacai.com/blog/code-36-things-that-fall) | in the post |
 
 More lineages land as the posts do: flow fields, the noise kit, circles and ripples, audio reactive, Kinect and webcam, physics, type, and the show rigs.
 

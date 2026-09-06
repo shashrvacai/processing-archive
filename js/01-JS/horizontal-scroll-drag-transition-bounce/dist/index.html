@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Horizontal scroll, drag, transition, bounce</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="scroll" data-scroll>
+  <div class="scroll-content" data-scroll-content>
+  	
+  	
+    <article class="slide slide--1 js-slide">
+      <div class="slide__inner">
+        <div class="slide__img js-transition-img">
+          <figure class="js-transition-img__inner">
+            <img src="https://1.bp.blogspot.com/-Gjc6xd4S158/Xh12C0swAYI/AAAAAAAAE80/tCn_TvBH4fAIjJhIalxeMSadEI6PZKqrgCLcBGAsYHQ/s640/a_20200113_0001.jpg" draggable="false">
+          </figure>
+        </div>
+      </div>
+    </article>
+    
+    <article class="slide slide--2 js-slide">
+      <div class="slide__inner">
+        <div class="slide__img js-transition-img">
+          <figure class="js-transition-img__inner">
+            <img src="https://1.bp.blogspot.com/-a8fD57VIhLg/XiZe1b0Z0yI/AAAAAAAAFCY/N0GWTDP1pIw1KGRPWUISyUtpyBPcqD2ngCLcBGAsYHQ/s640/IMG_1493.PNG" draggable="false">
+          </figure>
+        </div>
+      </div>
+    </article>
+    
+    <article class="slide slide--3 js-slide">
+      <div class="slide__inner">
+        <div class="slide__img">
+          <figure>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/58281/project-three.png" draggable="false">
+          </figure>
+        </div>
+      </div>
+    </article>
+
+  </div>  
+  
+  <div class="scroll-content scroll-content--last" data-scroll-content>
+    
+    <article class="slide slide--1 js-slide">
+      <div class="slide__inner">
+      	<a href="https://www.etsy.com/ca/listing/772217595/e-s?ref=shop_home_active_1">
+        <div class="slide__sub-title"><span>view in store</span></div>
+           </a>
+        <h1 class="slide__title"><div class="js-transition-title">E & S</div></h1>
+        <div class="slide__img slide__img--proxy"></div>
+        <div class="slide__project">Apparel, Prints and other accessories </div>
+      </div>
+    </article>
+
+    <article class="slide slide--2 js-slide">
+      <div class="slide__inner">
+      	   	<a href="https://www.etsy.com/ca/listing/758153986/peyton-knight-in-a-mood?ref=shop_home_active_3">
+        <div class="slide__sub-title"><span>view in store</span></div></a>
+        <h1 class="slide__title"><div class="js-transition-title">Peyton Knight in a Mood</div></h1>
+        <div class="slide__img slide__img--proxy"></div>
+        <div class="slide__project">Apparel, Prints and other accessories </div>
+      </div>
+    </article>
+    
+    <article class="slide slide--3 js-slide">
+      <div class="slide__inner">
+        <div class="slide__sub-title"><span>Project</span></div>
+        <h1 class="slide__title">Oak Refuge</h1>
+        <div class="slide__img slide__img--proxy"></div>
+        <div class="slide__project">Corpus Studio</div>
+      </div>
+    </article>
+    
+  </div>
+  
+  <div class="scrollbar" data-scrollbar>
+    <div class="scrollbar__handle js-scrollbar__handle"></div>
+  </div>
+  
+</div>
+
+
+<script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>

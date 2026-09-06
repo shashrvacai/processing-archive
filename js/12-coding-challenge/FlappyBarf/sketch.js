@@ -1,0 +1,50 @@
+var bird;
+var pipes = [];
+var A = 0;
+
+function preload() {
+  mytrack = loadSound('assets/tune.mp3');
+}
+
+function setup() {
+  createCanvas(400, 600);
+  bird = new Bird();
+  pipes.push(new Pipe());
+   mytrack.setVolume(0.1);
+  mytrack.loop();
+}
+
+function draw() {
+  background(0);
+
+  for (var i = pipes.length-1; i >= 0; i--) {
+    pipes[i].show();
+    pipes[i].update();
+
+    if (pipes[i].hits(bird)) {
+      console.log("HIT");
+    }
+
+
+    if (pipes[i].offscreen()) {
+      pipes.splice(i, 1);
+    }
+  }
+
+  bird.update();
+  bird.show();
+
+  if (frameCount % 75 == 0) {
+    pipes.push(new Pipe());
+  }
+
+A += 0.1;
+
+}
+
+function keyPressed() {
+  if (key == ' ') {
+    bird.up();
+    //console.log("SPACE");
+  }
+}

@@ -1,0 +1,116 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 let O = [];\
+let aa = 0 , c = 0 ;\
+function setup() \{\
+  createCanvas(windowWidth, windowHeight);\
+\
+  for (let i = 0; i < 200; i++) \{\
+    O[i] = new orb(random(width), random(height));\
+  \}\
+\}\
+\
+function draw() \{\
+  //background(0);\
+  push();\
+  fill(0,10);\
+ rect(0,0,width,height);\
+  pop();\
+  \
+  aa = map(mouseX,0,width,100,10);\
+  for (let i = 0; i < O.length; i++) \{\
+    O[i].run(O, aa);\
+  \}\
+  \
+  \
+\
+  let x = sin(c)*150 +width/2;\
+  let y = cos(c)*150 +height/2;\
+  O.push(new orb(x, y));\
+\
+      if (O.length>350) \{\
+    O.splice(0,1);\
+  \}\
+  \
+  c += 0.01 ;\
+\}\
+\
+class orb \{\
+  constructor(x, y) \{\
+    this.acceleration = createVector(0, 0);\
+    this.velocity = p5.Vector.random2D();\
+    this.position = createVector(x, y);\
+    this.r = 3.0;\
+    this.maxspeed = 3;    // Maximum speed\
+    this.maxforce = 0.05; // Maximum steering force\
+  \}\
+\
+  run(O,aa_) \{\
+    this.flock(O,aa_);\
+    this.update();\
+    this.borders();\
+    this.render();\
+  \}\
+  \
+  applyForce(force) \{\
+    this.acceleration.add(force);\
+  \}\
+  \
+  flock(O,aa_) \{\
+    let sep = this.separate(O,aa_); // Separation   \
+    sep.mult(2.5);\
+    this.applyForce(sep);\
+  \}\
+  \
+  update() \{\
+    this.velocity.add(this.acceleration);\
+    this.velocity.limit(this.maxspeed);\
+    this.position.add(this.velocity);\
+    this.acceleration.mult(0);\
+  \}\
+  render() \{\
+    fill(255);\
+    stroke(200);\
+    ellipse(this.position.x, this.position.y, 8, 8);\
+  \}\
+\
+  borders() \{\
+    if (this.position.x < -this.r) this.position.x = width + this.r;\
+    if (this.position.y < -this.r) this.position.y = height + this.r;\
+    if (this.position.x > width + this.r) this.position.x = -this.r;\
+    if (this.position.y > height + this.r) this.position.y = -this.r;\
+  \}\
+  \
+  separate(O,aa_) \{\
+    let desiredseparation = aa_;\
+    let steer = createVector(0, 0);\
+    let count = 0;\
+    for (let i = 0; i < O.length; i++) \{\
+      let d = p5.Vector.dist(this.position, O[i].position);\
+      if ((d > 0) && (d < desiredseparation)) \{\
+        let diff = p5.Vector.sub(this.position, O[i].position);\
+        diff.normalize();\
+        diff.div(d); // Weight by distance\
+        steer.add(diff);\
+        count++; // Keep track of how many\
+      \}\
+    \}\
+    if (count > 0) \{\
+      steer.div(count);\
+    \}\
+    if (steer.mag() > 0) \{\
+      steer.normalize();\
+      steer.mult(this.maxspeed);\
+      steer.sub(this.velocity);\
+      steer.limit(this.maxforce);\
+    \}\
+    return steer;\
+  \}\
+  \
+\}\
+\
+}

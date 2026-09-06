@@ -17,7 +17,7 @@ Written up, one lineage at a time, on [shashrvacai.com/blog](https://www.shashrv
 | [shows](shows/) | Dec 2017 to Jun 2020 | [Code 16: The show file](https://www.shashrvacai.com/blog/code-38-the-show-file) | in the post |
 | [exports](exports/) | Dec 2016 to Jun 2019 | [Code 38: Nine years of Processing](https://www.shashrvacai.com/blog/code-39-nine-years-of-processing) | the timeline |
 
-The leftovers, the sketches that never joined a lineage, are in [misc/](misc/).
+The leftovers, the sketches that never joined a lineage, are in [misc/](misc/). The p5.js and browser sketches are in [js/](js/).
 
 All ten lineages are up. The anchor post, with the timeline of everything, is [Code 39](https://www.shashrvacai.com/blog/code-39-nine-years-of-processing).
 

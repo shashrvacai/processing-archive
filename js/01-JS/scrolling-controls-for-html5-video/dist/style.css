@@ -1,0 +1,20 @@
+#set-height {
+  display: block;
+}
+#v0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10%;
+}
+
+#v1 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+}
+p font-family helvetica {
+  font-size: 24px;
+}
+

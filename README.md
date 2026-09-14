@@ -19,7 +19,7 @@ Written up, one lineage at a time, on [shashrvacai.com/blog](https://www.shashrv
 
 The leftovers, the sketches that never joined a lineage, are in [misc/](misc/). The p5.js and browser sketches are in [js/](js/).
 
-The recordings, seven videos with chapters, one per folder, all in the [Processing archive playlist](https://www.youtube.com/playlist?list=PLQgn65j9GUPc): [exports](https://youtu.be/DJ9Qlroo89g), [shows](https://youtu.be/MnW5lLYETnU), [camera](https://youtu.be/JUAgAxZMzW0), [audio](https://youtu.be/yQkh94uvwMg), [noise-kit](https://youtu.be/9luS9CZ1bM4), [js](https://youtu.be/nGag1SdosEw), [misc](https://youtu.be/bwDF6mEGENg). Duplicates are dropped and every clip is labelled on screen for its first few seconds; some are the source footage a sketch was reading, not the sketch output.
+The recordings, eight videos with chapters, all in the [Processing archive playlist](https://www.youtube.com/playlist?list=PLQgn65j9GUPc). One per folder: [exports](https://youtu.be/DJ9Qlroo89g), [shows](https://youtu.be/MnW5lLYETnU), [camera](https://youtu.be/JUAgAxZMzW0), [audio](https://youtu.be/yQkh94uvwMg), [noise-kit](https://youtu.be/9luS9CZ1bM4), [js](https://youtu.be/nGag1SdosEw), [misc](https://youtu.be/bwDF6mEGENg), plus the [ArtBridges installation](https://youtu.be/jsZOuPcOq88) on its own. Duplicates are dropped and every clip is labelled on screen for its first few seconds; some are the source footage a sketch was reading, not the sketch output.
 
 All ten lineages are up. The anchor post, with the timeline of everything, is [Code 39](https://www.shashrvacai.com/blog/code-39-nine-years-of-processing).
 

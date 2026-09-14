@@ -4,20 +4,22 @@ Nine years of Processing sketches, 660 of them, sorted by which ones kept gettin
 
 Written up, one lineage at a time, on [shashrvacai.com/blog](https://www.shashrvacai.com/blog). Each folder here is one lineage; each subfolder is one dated copy, named `YYYY-MM[-DD]_what_it_was`. Dates come from Processing's own `sketch_YYMMDD` file names, screenshots inside the folders, and the show they were built for. Filesystem dates were useless (two bulk copies), so where a folder says `undated`, it is.
 
-| Lineage | Span | Post | Live p5 port |
-|---|---|---|---|
-| [agents](agents/) | Oct 2017 to 2019, and still running | [Code 09: The flock that followed me home](https://www.shashrvacai.com/blog/code-30-the-vehicle-that-never-stopped) | in the post |
-| [flow-field](flow-field/) | Nov 2017 to 2019 | [Code 11: Weather for particles](https://www.shashrvacai.com/blog/code-31-weather-for-particles) | in the post |
-| [noise-kit](noise-kit/) | Apr 2018 to Jun 2020 | [Code 19: The spare tyre](https://www.shashrvacai.com/blog/code-32-the-file-i-never-read) | in the post |
-| [circles](circles/) | 2017 to Feb 2020 | [Code 15: Going in circles](https://www.shashrvacai.com/blog/code-33-going-in-circles) | in the post |
-| [audio](audio/) | Sep 2017 to Oct 2019 | [Code 13: The sketches that listened](https://www.shashrvacai.com/blog/code-34-the-sketches-that-listened) | in the post |
-| [camera](camera/) | Aug 2017 to Nov 2019 | [Code 12: The sketches that looked back](https://www.shashrvacai.com/blog/code-35-the-sketches-that-looked-back) | in the post |
-| [physics](physics/) | Oct 2017 to Jun 2019 | [Code 10: Things that fall](https://www.shashrvacai.com/blog/code-36-things-that-fall) | in the post |
-| [type](type/) | May 2018 to Jun 2019 | [Code 14: Letters that misbehave](https://www.shashrvacai.com/blog/code-37-letters-that-misbehave) | in the post |
-| [shows](shows/) | Dec 2017 to Jun 2020 | [Code 16: The show file](https://www.shashrvacai.com/blog/code-38-the-show-file) | in the post |
-| [exports](exports/) | Dec 2016 to Jun 2019 | [Code 38: Nine years of Processing](https://www.shashrvacai.com/blog/code-39-nine-years-of-processing) | the timeline |
+| Lineage | Span | Post | Live p5 port | Video |
+|---|---|---|---|---|
+| [agents](agents/) | Oct 2017 to 2019, and still running | [Code 09: The flock that followed me home](https://www.shashrvacai.com/blog/code-30-the-vehicle-that-never-stopped) | in the post | |
+| [flow-field](flow-field/) | Nov 2017 to 2019 | [Code 11: Weather for particles](https://www.shashrvacai.com/blog/code-31-weather-for-particles) | in the post | |
+| [noise-kit](noise-kit/) | Apr 2018 to Jun 2020 | [Code 19: The spare tyre](https://www.shashrvacai.com/blog/code-32-the-file-i-never-read) | in the post | [watch](https://youtu.be/9luS9CZ1bM4) |
+| [circles](circles/) | 2017 to Feb 2020 | [Code 15: Going in circles](https://www.shashrvacai.com/blog/code-33-going-in-circles) | in the post | |
+| [audio](audio/) | Sep 2017 to Oct 2019 | [Code 13: The sketches that listened](https://www.shashrvacai.com/blog/code-34-the-sketches-that-listened) | in the post | [watch](https://youtu.be/yQkh94uvwMg) |
+| [camera](camera/) | Aug 2017 to Nov 2019 | [Code 12: The sketches that looked back](https://www.shashrvacai.com/blog/code-35-the-sketches-that-looked-back) | in the post | [watch](https://youtu.be/JUAgAxZMzW0) |
+| [physics](physics/) | Oct 2017 to Jun 2019 | [Code 10: Things that fall](https://www.shashrvacai.com/blog/code-36-things-that-fall) | in the post | |
+| [type](type/) | May 2018 to Jun 2019 | [Code 14: Letters that misbehave](https://www.shashrvacai.com/blog/code-37-letters-that-misbehave) | in the post | |
+| [shows](shows/) | Dec 2017 to Jun 2020 | [Code 16: The show file](https://www.shashrvacai.com/blog/code-38-the-show-file) | in the post | [watch](https://youtu.be/MnW5lLYETnU) |
+| [exports](exports/) | Dec 2016 to Jun 2019 | [Code 38: Nine years of Processing](https://www.shashrvacai.com/blog/code-39-nine-years-of-processing) | the timeline | [watch](https://youtu.be/DJ9Qlroo89g) |
 
 The leftovers, the sketches that never joined a lineage, are in [misc/](misc/). The p5.js and browser sketches are in [js/](js/).
+
+The recordings, seven videos with chapters, one per folder: [exports](https://youtu.be/DJ9Qlroo89g), [shows](https://youtu.be/MnW5lLYETnU), [camera](https://youtu.be/JUAgAxZMzW0), [audio](https://youtu.be/yQkh94uvwMg), [noise-kit](https://youtu.be/9luS9CZ1bM4), [js](https://youtu.be/nGag1SdosEw), [misc](https://youtu.be/bwDF6mEGENg). Duplicates are dropped and every clip is labelled on screen for its first few seconds; some are the source footage a sketch was reading, not the sketch output.
 
 All ten lineages are up. The anchor post, with the timeline of everything, is [Code 39](https://www.shashrvacai.com/blog/code-39-nine-years-of-processing).
 

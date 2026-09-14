@@ -2,6 +2,8 @@
 
 One 2,000-line file, `Osn.pde`, copied into seventeen sketches between 2018 and 2019. It is Kurt Spencer's OpenSimplexNoise, public domain, which I pasted in whenever `noise()` looked too Processing. I never understood it well enough to rewrite it, so it travelled whole.
 
+The tuning_plus recordings, one video with chapters: [processing archive noise kit](https://youtu.be/9luS9CZ1bM4).
+
 Read the story: [Code 19: The spare tyre](https://www.shashrvacai.com/blog/code-32-the-file-i-never-read).
 
 | Folder | Date | Where | What it is |
